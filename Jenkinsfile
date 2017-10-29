@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('SCM_checkout') {
             steps {
-              git url: "https://github.com/devops98/shopizerMaven.git", branch: 'master'
+              git url: "https://github.com/devops98/spingpetclinicMaven.git", branch: 'master'
             }
         }
 
