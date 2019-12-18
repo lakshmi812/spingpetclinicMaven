@@ -6,3 +6,5 @@ b=20
 sum=$(( $a + $b ))
 
 echo $sum
+#want to add onemore functionaly v2 
+summation done
