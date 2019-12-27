@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('SCM_checkout') {
             steps {
-              https://github.com/lakshmi812/spingpetclinicMaven.git
+             git url:  "https://github.com/lakshmi812/spingpetclinicMaven.git"
             }
         }
 
