@@ -8,7 +8,7 @@ pipeline {
 
             }
 
-
+}
 
  stage ('build the packages') {
       // mvn package
@@ -17,5 +17,9 @@ pipeline {
 
    
      }
-}
+
+
+
+
+
 
