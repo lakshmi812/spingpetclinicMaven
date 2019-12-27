@@ -4,12 +4,9 @@ pipeline {
 
         stage('SCM_checkout') {
 
-            steps {
-
              git url:  "https://github.com/lakshmi812/spingpetclinicMaven.git"
 
             }
-}
 
 
 
@@ -21,3 +18,4 @@ pipeline {
    
      }
 }
+
